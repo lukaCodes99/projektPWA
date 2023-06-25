@@ -1,0 +1,157 @@
+* {
+   margin:0px;
+   padding:0px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+main {
+    min-height: 86vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clanci{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.clanci h2{
+    padding-left: 10px;
+}
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: '0 5%';
+}
+.clanak{
+    width: 20%;
+    padding: 5px;
+    
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.clanak .slika {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #f2f2f2;
+    justify-content: center;
+}
+nav {
+
+    width: 90%;
+    margin: '0 5%';
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+
+
+ul li{
+    width: 15%;
+    margin-right: 3px;
+    
+}
+header h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  footer p {
+    margin: 0 10px;
+  }
+  
+ 
+  nav ul li a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #bbb;
+    font-size: x-large;
+    color: black;
+    
+  }
+  
+nav ul li span{
+    margin: 0 auto;
+}
+  
+  a:hover {
+    background-color: lightgray;
+  }
+
+  .holdertopic{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .clanaktopic{
+    width: 45%;
+    padding: 5px;
+    
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .clanaktopic > .slika{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .error {
+    color: red;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
